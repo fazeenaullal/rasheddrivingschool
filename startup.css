@@ -1,0 +1,186 @@
+/* Q&CLOUD Technology Website */
+
+html, body, .cover {
+	height: 100% ;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption h5 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1.25rem;
+}
+
+/* .cover {
+	background: url('img/coverimg.jpeg') top left no-repeat;
+	background-size: cover;
+	display: table;
+	width: 100%;
+	padding: 0 20%;
+	box-shadow: inset 0 0 100px #100;
+	
+} */
+
+/* .cover-text {
+	text-align: center;
+	color:rgb(253, 253, 253);
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.cover-text h1 {
+	font-size: 60px;
+	color:rgb(249, 185, 102);
+	margin: 0;
+	letter-spacing: -4px;
+} */
+
+.nav navbar {
+	position:absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: none;
+}
+
+.testimonial {
+	background: #100000 ;
+}
+
+blockquote {
+	border: none;
+	font-family: Georgia , Times, monospace;
+	font-style: italic;
+	font-size: 22px;
+	color: aliceblue ;
+	
+}
+
+blockquote cite {
+	display:block;
+	font-family: Helvitica, sans-serif, Arial;
+	font-style: normal;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: right;
+	color:antiquewhite; 
+}
+
+section {
+	padding: 50px;
+}
+
+h2{
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 0 60px;
+}
+
+h2 + p{
+	text-align: center;
+	margin-top: -50px;
+}
+
+
+#team {
+	background: url('img/hse-right.jpg') top left no-repeat;
+	background-size: cover;
+	color: white;
+	text-align: center;
+	
+}
+
+footer{
+	background: #222;
+	color:beige;
+	text-align: center;
+	padding: 20px;
+	font-family: Times, sans-serif, serif;
+}
+
+footer a {
+	color:red;
+}
+header {
+    background-image: url('https://via.placeholder.com/1920x600?text=Welcome+to+Our+Driving+School');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* Custom styling for Price section */
+.card-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Styling for Traffic Updates */
+#trafficUpdates {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Button Styling for Downloads */
+#downloads .btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+.pricing-table {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.table th, .table td {
+	text-align: center;
+	font-size: 14px;
+}
+.table thead {
+	background-color: #71e3f7;
+	color: rgb(8, 8, 8);
+}
+.table tbody tr:nth-child(odd) {
+	background-color: #f2f2f2;
+}
+.table tbody tr:nth-child(even) {
+	background-color: #e9ecef;
+}
+.table .price-cell {
+	background-color: #f8f9fa;
+	font-weight: bold;
+	color: #28a745;
+}
+.btn-primary {
+	background-color: #28a745;
+	border-color: #070707;
+}
+
+/*------- Media Queries -------*/
+
+@media only screen and (max-width : 568px)
+{
+	.cover h1 {
+		fontsize: 40px; 
+	}
+	section {
+		padding: 20px;
+	
+}
+}
+
+
+
+
+
+
+
+
