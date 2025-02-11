@@ -1,0 +1,62 @@
+/**
+ * Owl Carousel v2.3.4
+ * Copyright 2013-2018 David Deutsch
+ * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
+ */
+/*
+ * 	Default theme - Owl Carousel CSS File
+ */
+.owl-theme .owl-nav { margin-top: 10px; text-align: center; -webkit-tap-highlight-color: transparent; }
+.owl-theme .owl-nav [class*='owl-'] { color: #FFF; font-size: 14px; margin: 5px; padding: 4px 7px; background: #D6D6D6; display: inline-block; cursor: pointer; border-radius: 3px; }
+.owl-theme .owl-nav [class*='owl-']:hover { background: #869791; color: #FFF; text-decoration: none; }
+.owl-theme .owl-nav .disabled { opacity: 0.5; cursor: default; }
+.owl-theme .owl-nav.disabled + .owl-dots {margin-top: 10px; }
+.owl-theme .owl-dots { text-align: center; -webkit-tap-highlight-color: transparent; }
+.owl-theme .owl-dots .owl-dot { display: inline-block; zoom: 1;}
+.owl-theme .owl-dots .owl-dot span { width: 10px; height: 10px; margin: 5px 7px; background: #D6D6D6; display: block; transition: opacity 200ms ease; border-radius: 30px; }
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {background: #869791; }
+
+.home-news-owl.owl-carousel.owl-drag .owl-item{margin-bottom: 20px;}
+.home-news-owl .owl-nav{position: absolute; right: 0px; left: 0; top: -70px;}
+.home-news-owl .owl-nav button.owl-prev,.home-news-owl .owl-nav button.owl-next{background: var(--color-grey); color: var(--color-black); border-radius: 50%; font-size: 22px; position: absolute; width: 45px; height: 45px;box-shadow: 0 .5rem 1rem rgba(0,0,0,0)!important;}
+.home-news-owl .owl-nav button.owl-prev{right:50px;}
+.home-news-owl .owl-nav button.owl-next{right: 0px;}
+.home-news-owl .owl-nav button.owl-prev:hover,.home-news-owl .owl-nav button.owl-next:hover{background: var(--color-black); color: var(--color-white);}
+
+.home-video-owl.owl-theme .owl-dots .owl-dot span{background: #fff; border: 1px solid #2e3192;}
+.home-video-owl.owl-theme .owl-dots .owl-dot.active span, .home-video-owl.owl-theme .owl-dots .owl-dot:hover span{background: var(--color-blue);}
+.home-video-owl.owl-theme .owl-dots .owl-dot.active span{width: 30px;}
+.home-video-owl.owl-theme .owl-dots .owl-dot{display: inline-block; padding-bottom: 3px;}
+.home-video-owl.owl-theme .owl-dots{right: 0%; position: absolute; bottom:-30px; left: 0;}
+.home-video-owl.owl-carousel .owl-item .item{position: relative;}
+.home-video-owl.owl-carousel .owl-item .item a{display: block; }
+.home-video-owl.owl-carousel .owl-item .item a:before{background:rgba(0,0,0,0.1); content:""; height:100%; left:0; position:absolute; top:0; width:100%; z-index:1; background-image: url(../img/play.png); background-repeat: no-repeat; background-position: center; opacity: 0.8; border-radius: 30px;}
+.home-video-owl.owl-carousel .owl-item .item:hover a:before{background:rgba(0,0,0,0.4); content:""; height:100%; left:0; position:absolute; top:0; width:100%; z-index:1;background-image: url(../img/play.png); background-repeat: no-repeat; background-position: center; opacity: 1;}
+.home-video-owl.owl-carousel .owl-item .item a img{border-radius: 30px;}
+
+.home-awards-owl.owl-carousel .owl-item img{width: 70%; margin: 0 auto;}
+.home-awards-owl.owl-theme .owl-dots{margin-top: 30px !important;}
+.home-awards-owl.owl-theme .owl-dots .owl-dot span{background: #fff; border: 1px solid #2e3192; width: 10px; height: 10px; margin: 5px 7px;}
+.home-awards-owl.owl-theme .owl-dots .owl-dot:hover span{background: #2e3192;}
+.home-awards-owl.owl-theme .owl-dots .owl-dot.active span{background: #2e3192; width: 30px;}
+
+.home-blog-owl .owl-nav{position: absolute; left: -300px; bottom: 150px;}
+.home-blog-owl .owl-nav button.owl-prev,.home-blog-owl .owl-nav button.owl-next{background: #fff; color: var(--color-black); border-radius: 50%; font-size: 22px; position: absolute; width: 45px; height: 45px; border:1px solid #929294; box-shadow: 0 .5rem 1rem rgba(0,0,0,.0)!important;}
+.home-blog-owl .owl-nav button.owl-prev:hover,.home-blog-owl .owl-nav button.owl-next:hover{background: #929294; color: var(--color-white);}
+.home-blog-owl .owl-nav button.owl-prev{left: -75px;}
+.home-blog-owl .owl-nav button.owl-next{right: -35px;}
+
+
+
+
+@media(min-width:320px) and (max-width:1080px) {
+.home-collabrations-logo.owl-carousel .owl-nav button.owl-prev,.home-collabrations-logo.owl-carousel .owl-nav button.owl-next{font-size: 42px;line-height: 22px; margin: 0 15px;}
+.home-collabrations-logo.owl-theme .owl-nav [class*='owl-']:hover{background: transparent; color: var(--color-yellow);}
+
+
+
+
+
+
+
+}
