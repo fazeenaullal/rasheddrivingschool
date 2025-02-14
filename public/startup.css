@@ -1,0 +1,365 @@
+/* Q&CLOUD Technology Website */
+
+html, body, .cover {
+	height: 100% ;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption h5 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1.25rem;
+}
+
+/* .cover {
+	background: url('img/coverimg.jpeg') top left no-repeat;
+	background-size: cover;
+	display: table;
+	width: 100%;
+	padding: 0 20%;
+	box-shadow: inset 0 0 100px #100;
+	
+} */
+
+/* .cover-text {
+	text-align: center;
+	color:rgb(253, 253, 253);
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.cover-text h1 {
+	font-size: 60px;
+	color:rgb(249, 185, 102);
+	margin: 0;
+	letter-spacing: -4px;
+} */
+
+.nav navbar {
+	position:absolute;
+	background-color: rgba(69, 64, 64, 0.5);
+	border: none;
+}
+/* Dropdown Styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    /* background-color:  rgba(0, 0, 0, 0.5); */
+    color: white;
+    padding: 14px 20px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Service list styles */
+.services-list {
+    display: none;
+    position: absolute;
+    background-color: #f4e7e7;
+    width: 300px;
+    /* z-index: 1; */
+}
+
+.services-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.services-list li {
+    padding: 4px 4px;
+}
+
+.services-list li a {
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+}
+
+.services-list li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+/* Show the services list when it is toggled by JavaScript */
+.dropdown:hover .services-list {
+    display: block;
+}
+.testimonial {
+	background: #100000 ;
+}
+
+blockquote {
+	border: none;
+	font-family: Georgia , Times, monospace;
+	font-style: italic;
+	font-size: 22px;
+	color: aliceblue ;
+	
+}
+
+blockquote cite {
+	display:block;
+	font-family: Helvitica, sans-serif, Arial;
+	font-style: normal;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: right;
+	color:antiquewhite; 
+}
+
+section {
+	padding: 20px;
+}
+
+h2{
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 0 60px;
+	color:antiquewhite; 
+}
+
+h2 + p{
+	text-align: center;
+	margin-top: -50px;
+}
+
+
+#team {
+	background: url('img/hse-right.jpg') top left no-repeat;
+	background-size: cover;
+	color: white;
+	text-align: center;
+	
+}
+
+footer{
+	background: #222;
+	color:beige;
+	text-align: center;
+	padding: 20px;
+	font-family: Times, sans-serif, serif;
+}
+
+footer a {
+	color:red;
+}
+header {
+    background-image: url('https://via.placeholder.com/1920x600?text=Welcome+to+Our+Driving+School');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* Custom styling for Price section */
+.card-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Styling for Traffic Updates */
+#trafficUpdates {
+    font-size: 1.2rem;
+    font-weight: bold;
+    /* padding: 10px; */
+}
+
+/* Button Styling for Downloads */
+#downloads .btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+.pricing-table {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.table th, .table td {
+	text-align: center;
+	font-size: 14px;
+}
+.table thead {
+	background-color: #132325;
+	color: rgb(240, 228, 228);
+}
+.table tbody tr:nth-child(odd) {
+	background-color: #f2f2f2;
+}
+.table tbody tr:nth-child(even) {
+	background-color: #e9ecef;
+}
+.table .price-cell {
+	background-color: #e3e9ef;
+	font-weight: bold;
+	color: #28a745;
+}
+.btn-primary {
+	background-color: #28a745;
+	border-color: #070707;
+}
+.divbg{
+    background-color: #71e3f7;
+/* background-image:url("img/bgimage.jpg"); */
+}
+
+.divbg h2 {
+	color:rgb(0, 0, 0);
+    font-weight: bold;
+}
+.divbg p{
+	color:rgb(21, 19, 19);
+    font-weight: 500;
+}
+
+#content {
+	background-color: rgba(15, 15, 15, 0.5);
+	border: 2px solid #f5f5f5;
+	padding: 1.5rem;
+	display: flex;
+  }
+
+  #content1 {
+	
+	/* background-color: #f8f9fa; */
+	/* border: 2px solid #f5f5f5; */
+	/* padding: 0.5rem; */
+	display:flex;
+  }
+  
+  #left1,
+  #right1 {
+	background-color: rgba(167, 118, 118, 0.5);
+	/* border: 1px solid #fadede; */
+	/* padding: 0.5rem; */
+	flex-grow: 1;
+	color: #fff;
+	/* width: 300px; */
+    /* height: 450px; */
+  }
+
+
+  #left,
+  #right {
+	background-color: rgba(10, 10, 10, 0.5);
+	border: 2px solid #060505;
+	padding: 1.5rem;
+	flex-grow: 1;
+	color: #fff;
+  }
+
+  form{
+	padding: 1.5rem;
+  }
+
+
+/* Style for the "Book Now" Button */
+#book-now-btn {
+    padding: 15px 30px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#book-now-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the booking form (initially hidden) */
+.booking-form {
+    display: none; /* Initially hidden */
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.booking-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.booking-form input,
+.booking-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.booking-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.booking-form button:hover {
+    background-color: #0056b3;
+}
+
+
+/*------- Media Queries -------*/
+
+@media only screen and (max-width : 568px)
+{
+	.cover h1 {
+		fontsize: 40px; 
+	}
+	section {
+		padding: 20px;
+	
+}
+}
+
+/* Responsive: Stack the columns on smaller screens */
+@media (max-width: 768px) {
+    .services {
+        grid-template-columns: 1fr; /* Single column layout for small screens */
+    }
+}
+
+
+
+
+
+
+
+

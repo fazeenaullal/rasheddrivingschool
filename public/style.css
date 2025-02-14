@@ -1,0 +1,218 @@
+/* Basic Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    float: left;
+}
+
+.nav-links li a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.nav-links li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* About Us Header Section */
+.about-header {
+    background-image: url('img/slider5.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    /* display: flex; */
+    align-items: top;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.about-header .overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for text visibility */
+    padding: 0px;
+}
+
+.about-header h2 {
+    font-size: 25px;
+    margin: 2;
+    color: #ac1d1d;
+    align-self: self-end;
+    align-items: end;
+}
+
+.about-header h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.about-header p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* About Content Section */
+.about-content {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about-text h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+.about-text p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* About Icons Section */
+.about-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.icon-item {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.icon-item i {
+    font-size: 50px;
+    color: #ff6347;
+    margin-bottom: 20px;
+}
+
+.icon-item h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.icon-item p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* About Images Section */
+.about-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.image-item {
+    text-align: center;
+    width: 45%;
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-item h4 {
+    margin-top: 10px;
+    color: #333;
+    font-size: 18px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Style for the Contact Us button */
+.contact-button {
+    padding: 15px 30px;
+    background-color: #0e7105; /* Blue background */
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly grow the button on hover */
+}
+
+
+
+
+/* .about-btn{
+    align-items: center;
+    width: 50%;
+} */
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-icons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icon-item {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .about-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-item {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
